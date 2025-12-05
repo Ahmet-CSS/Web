@@ -1,0 +1,575 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Omen - Software Developer Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+
+
+
+  <!-- === NAVBAR === -->
+  <header class="nav-shell">
+    <nav class="nav">
+      <div class="nav-left">
+        <span class="logo">Omen</span>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#resume">Resume</a></li>
+      </ul>
+
+      <div class="nav-right">
+
+        <a href="#contact" class="btn btn-dark">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+
+
+
+    <!-- === HOME === -->
+    <section id="home" class="section hero">
+      <div class="hero-inner">
+        <p class="hero-eyebrow">Software Developer | Full-Stack Engineer | Creative Problem Solver</p>
+        <h1 class="hero-title">Hi, I'm <span>Omen</span></h1>
+        <p class="hero-subtitle"></p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- === FEATURES AND PROJECTS SLIDER === -->
+    <section class="section section-dark">
+      <div class="section-inner">
+        <h2 class="section-title">Featured Projects</h2>
+
+        <div class="slider">
+          <div class="slide active" data-index="0">
+            <div class="slide-card">
+                <img src="images/fullstack.jpg" alt="Full-Stack">
+              <h3>Project 1</h3>
+              <p>Full stack web app with modern UI and clean architecture.</p>
+            </div>
+          </div>
+
+          <div class="slide" data-index="1">
+            <div class="slide-card">
+                <img src="images/design.webp" alt="Design">
+              <h3>Project 2</h3>
+              <p>Design focused project with reusable components and responsive layouts.</p>
+            </div>
+          </div>
+
+          <div class="slide" data-index="2">
+            <div class="slide-card">
+                <img src="images/aitools.webp" alt="aitools">
+              <h3>Project 3</h3>
+              <p>AI powered tool that combines machine learning with slick UX.</p>
+            </div>
+          </div>
+          
+
+          <div class="slide" data-index="3">
+            <div class="slide-card">
+                <img src="images/tictactoe.jpg" alt="tictactoe">
+                <h4>Project 4</h4>
+                <p>tic tac toe game in Java OOP </p>
+            </div>
+          </div>
+
+          <div class="slider-dots">
+            <button class="dot active" data-target="0"></button>
+            <button class="dot" data-target="1"></button>
+            <button class="dot" data-target="2"></button>
+            <button class="dot" data-target="3"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <!-- === CTA === -->
+    <section class="section cta-section">
+      <div class="section-inner cta-inner">
+        <h2 class="cta-title">Ready to work together?</h2>
+        <p class="cta-subtitle">Let's create something amazing together.</p>
+        <a href="#contact" class="btn btn-light">Start a Project</a>
+      </div>
+    </section>
+
+
+
+
+
+    <!-- === ABOUT === -->
+    <section id="about" class="section section-dark">
+      <div class="section-inner">
+        <h2 class="section-title">About Me</h2>
+        <p class="about-intro">
+          Passionate software developer with a focus on creating elegant solutions to complex problems.
+        </p>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I'm a 3rd year software developer who enjoys building web applications and solving technical challenges.
+              I love understanding how things work under the hood and turning ideas into working products.
+            </p>
+            <p>
+              I specialize in full stack development using modern web technologies. Clean code, strong design
+              and good user experience are always my priorities.
+            </p>
+          </div>
+
+          <div class="about-card gradient-blue">
+            <h3>Core Expertise</h3>
+            <ul>
+              <li>Full-stack web development</li>
+              <li>React &amp; TypeScript / JavaScript</li>
+              <li>APIs, databases &amp; deployment</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Skills cards -->
+        <h3 class="section-subtitle">Skills &amp; Expertise</h3>
+        <div class="skills-cards">
+          <div class="skill-card gradient-blue">
+            <span class="skill-icon">🎨</span>
+            <h4>Frontend Development</h4>
+            <p>Responsive UIs, component-based design, modern layouts.</p>
+          </div>
+          <div class="skill-card gradient-purple">
+            <span class="skill-icon">💻</span>
+            <h4>Backend Development</h4>
+            <p>APIs, authentication, server-side logic and integrations.</p>
+          </div>
+          <div class="skill-card gradient-green">
+            <span class="skill-icon">🗄</span>
+            <h4>Database Design</h4>
+            <p>Relational data modelling, queries and performance.</p>
+          </div>
+        </div>
+
+        <!-- Skill bars-->
+        <h3 class="section-subtitle">Proficiency Levels</h3>
+        <div class="skill-bars">
+          <div class="skill-bar-row">
+            <span>HTML</span><span>95%</span>
+          </div>
+          <div class="bar">
+            <div class="bar-fill" style="--level: 95%;"></div>
+          </div>
+
+          <div class="skill-bar-row">
+            <span>CSS</span><span>90%</span>
+          </div>
+          <div class="bar">
+            <div class="bar-fill" style="--level: 90%;"></div>
+          </div>
+
+          <div class="skill-bar-row">
+            <span>JavaScript</span><span>92%</span>
+          </div>
+          <div class="bar">
+            <div class="bar-fill" style="--level: 92%;"></div>
+          </div>
+
+          <div class="skill-bar-row">
+            <span>SQL</span><span>87%</span>
+          </div>
+          <div class="bar">
+            <div class="bar-fill" style="--level: 87%;"></div>
+          </div>
+
+          <div class="skill-bar-row">
+            <span>Python</span><span>98%</span>
+          </div>
+          <div class="bar">
+            <div class="bar-fill" style="--level: 98%"></div>
+          </div>
+
+          <div class="skill-bar-row">
+            <span>C</span><span>82%</span>
+          </div>
+          <div class="bar">
+            <div class="bar-fill" style="--level: 82%"></div>
+          </div>
+
+          <div class="skill-bar-row">
+            <span>Java</span><span>85%</span>
+          </div>
+          <div class="bar">
+            <div class="bar-fill" style="--level: 85%"></div>
+          </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- === PROJECTS === -->
+    <section id="projects" class="section section-dark">
+      <div class="section-inner">
+        <h2 class="section-title">My Projects</h2>
+        <p class="section-description">
+          A selection of projects showcasing skills in design, programming and AI.
+        </p>
+
+        <!--Filter buttons -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="programming">Programming</button>
+          <button class="filter-btn" data-filter="design">Design</button>
+          <button class="filter-btn" data-filter="ai">AI</button>
+        </div>
+
+        <!-- Project cards -->
+        <div class="projects-grid">
+          <!-- 1: Linux Administration Dashboard -->
+          <article class="project-card" data-type="programming">
+            <div class="project-thumb">
+                <img src="images/linux.png" alt="Linux">
+            </div>
+            <div class="project-content">
+              <h3>Linux Admin Dashboard</h3>
+              <span class="project-tag programming">Programming</span>
+              <p>
+                Web dashboard for monitoring Linux server resources CPU, memory, processes with live charts.
+              </p>
+              <div class="project-actions">
+                <a href="#" class="btn btn-primary-sm">View Project</a>
+                <a href="#" class="btn btn-outline-sm">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!--C systems tools -->
+          <article class="project-card" data-type="programming">
+            <div class="project-thumb">
+                <img src="images/C.jpg" alt="C">
+            </div>
+            <div class="project-content">
+              <h3>C Systems Toolkit</h3>
+              <span class="project-tag programming">Programming</span>
+              <p>
+                A collection of C utilities for file handling, process management and performance analysis.
+              </p>
+              <div class="project-actions">
+                <a href="#" class="btn btn-primary-sm">View Project</a>
+                <a href="#" class="btn btn-outline-sm">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!--Java OOP Game Engine -->
+          <article class="project-card" data-type="programming">
+            <div class="project-thumb">
+                <img src="images/java.jpg" alt="Java">
+            </div>
+            <div class="project-content">
+              <h3>Java OOP Game Demo</h3>
+              <span class="project-tag programming">Programming</span>
+              <p>
+                A small 2D game written in Java showcasing clean OOP design, entities and game loops.
+              </p>
+              <div class="project-actions">
+                <a href="#" class="btn btn-primary-sm">View Project</a>
+                <a href="#" class="btn btn-outline-sm">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Python data analyzer -->
+          <article class="project-card" data-type="ai">
+            <div class="project-thumb">
+                <img src="images/python.jpg" alt="Python">
+            </div>
+            <div class="project-content">
+              <h3>Python Data Analyzer</h3>
+              <span class="project-tag ai">AI</span>
+              <p>
+                Python app that loads CSV datasets, visualizes trends and runs basic ML predictions.
+              </p>
+              <div class="project-actions">
+                <a href="#" class="btn btn-primary-sm">View Project</a>
+                <a href="#" class="btn btn-outline-sm">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!--Django portfolio backend -->
+          <article class="project-card" data-type="programming">
+            <div class="project-thumb">
+                <img src="images/django.jpg" alt="Django">
+            </div>
+            <div class="project-content">
+              <h3>Django Portfolio Backend</h3>
+              <span class="project-tag programming">Programming</span>
+              <p>
+                Backend for a portfolio site using Django, dynamic project entries and admin panel integration.
+              </p>
+              <div class="project-actions">
+                <a href="#" class="btn btn-primary-sm">View Project</a>
+                <a href="#" class="btn btn-outline-sm">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Responsive UI design -->
+          <article class="project-card" data-type="design">
+            <div class="project-thumb">
+                <img src="images/ui.jpg" alt="UI">
+            </div>
+            <div class="project-content">
+              <h3>Responsive UI Components</h3>
+              <span class="project-tag design">Design</span>
+              <p>
+                A set of responsive cards, navbars, and forms focused on clean layout and accessibility.
+              </p>
+              <div class="project-actions">
+                <a href="#" class="btn btn-primary-sm">View Project</a>
+                <a href="#" class="btn btn-outline-sm">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- API service -->
+          <article class="project-card" data-type="programming">
+            <div class="project-thumb ">
+                <img src="images/api.png" alt="API">
+            </div>
+            <div class="project-content">
+              <h3>REST API Microservice</h3>
+              <span class="project-tag programming">Programming</span>
+              <p>
+                Lightweight REST API for managing users and tasks, built with JSON responses and clean routing.
+              </p>
+              <div class="project-actions">
+                <a href="#" class="btn btn-primary-sm">View Project</a>
+                <a href="#" class="btn btn-outline-sm">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- DevOps monitoring  -->
+          <article class="project-card" data-type="programming">
+            <div class="project-thumb">
+                <img src="images/devops.jpg" alt="DevOps">
+            </div>
+            <div class="project-content">
+              <h3>DevOps Monitoring Panel</h3>
+              <span class="project-tag programming">Programming</span>
+              <p>
+                Dashboard mockup for tracking deployments, uptime and logs for cloud-based services.
+              </p>
+              <div class="project-actions">
+                <a href="#" class="btn btn-primary-sm">View Project</a>
+                <a href="#" class="btn btn-outline-sm">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- AI Powered code -->
+          <article class="project-card" data-type="ai">
+            <div class="project-thumb"> 
+                <img src="images/ai.png" alt="AI-Powered">
+            </div>
+            <div class="project-content">
+              <h3>AI-Powered Code Helper</h3>
+              <span class="project-tag ai">AI</span>
+              <p>
+                Concept tool that suggests refactors and improvements based on static analysis and AI prompts.
+              </p>
+              <div class="project-actions">
+                <a href="#" class="btn btn-primary-sm">View Project</a>
+                <a href="#" class="btn btn-outline-sm">Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- === CONTACT === -->
+    <section id="contact" class="section section-dark">
+      <div class="section-inner">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-description">
+          Tell me about your project or question  I'll get back to you as soon as I can.
+        </p>
+
+        <div class="contact-grid">
+          <!-- LEFT:form -->
+          <form class="contact-form" onsubmit="handleContactSubmit(event)">
+            <div class="input-group">
+              <label for="contact-name">Your Name</label>
+              <input
+                type="text"
+                id="contact-name"
+                name="name"
+                placeholder="Your name"
+                required
+              >
+            </div>
+
+            <div class="input-group">
+              <label for="contact-email">Your Email</label>
+              <input
+                type="email"
+                id="contact-email"
+                name="email"
+                placeholder="your@email.com"
+                required
+              >
+            </div>
+
+            <div class="input-group">
+              <label for="contact-message">Your Message</label>
+              <textarea
+                id="contact-message"
+                name="message"
+                rows="5"
+                placeholder="Tell me about your project or inquiry..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary full-width">
+              Send Message ✈️
+            </button>
+          </form>
+
+          <!-- RIGHT:info card -->
+          <div class="contact-info">
+            <div class="info-card">
+              <div class="info-icon gradient-blue">✉️</div>
+              <div>
+                <div class="info-label">Email</div>
+                <div class="info-value">six402@usask.ca</div>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon gradient-blue">📞</div>
+              <div>
+                <div class="info-label">Phone</div>
+                <div class="info-value">+1 (306) 561-0105</div>
+              </div>
+            </div>
+
+            <!-- LinkedIn -->
+            <div class="info-card">
+              <div class="info-icon gradient-blue">
+                <img src="images/linkedin.png" alt="LinkedIn icon">
+              </div>
+              <div>
+                <div class="info-label">LinkedIn</div>
+                <div class="info-value">linkedin.com/in/ahmedguldadov</div>
+              </div>
+            </div>
+
+            <!-- Github -->
+            <div class="info-card">
+              <div class="info-icon gradient-blue">
+                <img src="images/github-sign.png" alt="GitHub icon">
+              </div>
+              <div>
+                <div class="info-label">GitHub</div>
+                <div class="info-value">github.com/Ahmet-CSS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <!-- === RESUME === -->
+    <section id="resume" class="section section-dark">
+      <div class="section-inner">
+        <h2 class="section-title">Resume</h2>
+        <p class="section-description">
+          You can link your PDF resume here or add a detailed timeline later.
+        </p>
+        <a href="resume.pdf" class="btn btn-outline" target="_blank">
+          Download Resume
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- === FOOTER === -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <div class="logo">Omen</div>
+        <p>© 2025 Omen. All rights reserved.</p>
+      </div>
+
+      <div class="footer-center">
+        <p>USASK</p>
+      </div>
+
+      <div class="footer-right">
+        <!-- Github -->
+        <a href="https://github.com/Ahmet-CSS" 
+           class="contact-icon small" target="_blank" rel="noopener">
+          <img src="images/github-sign.png" alt="GitHub icon">
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/ahmedguldadov" 
+           class="contact-icon small" target="_blank" rel="noopener">
+          <img src="images/linkedin.png" alt="LinkedIn icon">
+        </a>
+
+        <!-- Email -->
+        <a href="mailto:six402@usask.ca" 
+           class="contact-icon small">
+          ✉️
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Js -->
+  <script src="script.js"></script>
+</body>
+</html>
