@@ -66,7 +66,7 @@ body {
 .logo {
   font-weight: 700;
   font-size: 1.2rem;
-  color: #000;
+  color: #f9fcfc;
 
 }
 
@@ -160,6 +160,7 @@ body {
 .btn-outline-sm {
   font-size: 0.85rem;
   padding: 6px 14px;
+  color:#06efd4
 
 }
 
@@ -471,9 +472,9 @@ body {
 }
 
 .project-card {
-  background: #020617;
+  background: #030a27;
   border-radius: 24px;
-  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.7);
+  box-shadow: 0 18px 40px rgba(131, 144, 173, 0.7);
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -484,7 +485,7 @@ body {
 
 .project-content {
   padding: 20px 20px 18px;
-  
+
 }
 
 
@@ -503,7 +504,7 @@ body {
 
 
 .project-tag.programming {
-  background: rgba(37, 99, 235, 0.7);
+  background: rgba(86, 129, 221, 0.7);
 
 }
 .project-tag.design {
